@@ -1,0 +1,32 @@
+.banner{
+    background: linear-gradient( rgba(1, 0, 5, 0.9), rgba(0, 0, 17, 0.7) ), url('images/welcome.jpg');
+    background-position: center;
+    height: 80vh;
+    background-size: cover;
+}
+.banner-content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.about, .blog, .portfolio, .team, .contact{
+    padding-top: 2rem;
+    height: auto;
+    
+}
+.foto-team{
+    width: 150px;
+    height: 150px;
+}
+.team {
+    text-align: center;
+}
+.team p{
+    line-height: 1rem;
+    font-weight: bold;
+}
+.kirim{
+    background-color: rgb(5, 61, 10);
+}
